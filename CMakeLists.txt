@@ -1,0 +1,12 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.28.3)
+
+PROJECT(RPNCalculator)
+
+SET(CMAKE_CXX_STANDARD 23)
+SET(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+ADD_EXECUTABLE(
+    RPNCalculator main.cxx 
+    RPNCalculator.hxx
+    RPNCalculator.cxx
+)
